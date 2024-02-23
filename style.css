@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #fff5d7;
+}
+
+nav {
+    border-bottom: 1px solid #00000070;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.karusel {
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+}
+
+.theme {
+    transform: translateX(-150%);
+    animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateY(0);}
+  }
+
+.headerText {
+    font-size: calc(0.425rem + 1.5vw);
+}
+
+.headerH {
+    font-size: calc(0.525rem + 1.8vw);
+    text-align: center;
+    
+}
+
+.hhh {
+    margin-top: 84px;
+    transform: translateX(-150%);
+    animation: ani .5s forwards;
+}
+
+.card {
+ min-width: 32%;
+ margin-left: 1%;
+}
